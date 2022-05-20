@@ -1,0 +1,135 @@
+*{
+    font-family: Epidemic, sans-serif;
+
+}
+
+
+
+
+/*Cor do background*/
+body{
+    background-color: #00040c;
+}
+
+
+
+
+/*Formatação da Barra de navegção topo*/
+#Logo{
+    /*Aumentando o tamanho do menu*/
+    
+    font-size: 1.4em;
+}
+#Produtos{
+    /*Criando um background para os produtos*/
+    
+    background-color: #136b61;   
+    color: white;
+
+    border-radius: 5px;
+    padding: 6px 18px;
+}
+
+
+.menu{
+/*Aumentando a grossura de todas as palavras no menu*/
+font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 575.98px) { 
+
+ }
+
+@media (min-width: 576px) and (max-width: 767.98px) {  }
+
+@media (min-width: 768px) and (max-width: 991.98px) {  }
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    #Produtos{
+        margin-left:14px ;
+    }
+ }
+
+
+@media (min-width: 1200px) { 
+
+    /*Barra de navegação*/
+    #Produtos{
+        margin-left:14px ;
+    }
+
+    /*Padding no container*/
+    .p{
+        padding: 8px 24px;
+    }
+ }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 575.98px) {  }
+
+@media (min-width: 576px) and (max-width: 767.98px) {  }
+
+@media (min-width: 768px) and (max-width: 991.98px) {  }
+
+@media (min-width: 992px) and (max-width: 1199.98px) {  }
+
+@media (min-width: 1200px) {  }
