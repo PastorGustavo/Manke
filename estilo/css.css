@@ -1,25 +1,9 @@
-*{
-    font-family: Epidemic, sans-serif;
-    color: white;
-}
-
-
-
-
-/*Cor do background*/
-body{
-    background-color: #00040c;
-}
 
 
 
 /*Formatação da Barra de navegção topo*/
 
-#Logo{
-    /*Aumentando o tamanho do menu*/
-    
-    font-size: 1.4em;
-}/*Logo da barra de navegação*/
+
 
 #Produtos{
     /*Criando um background para os produtos*/
@@ -30,15 +14,6 @@ body{
     border-radius: 5px;
     padding: 6px 18px;
 }/*Botão com background*/
-
-.menu{
-/*Aumentando a grossura de todas as palavras no menu*/
-
-font-weight: 600;
-}/*Barra de navegação*/
-
-
-
 
 
 /*Formatação da area de texto/Imgs*/
@@ -108,7 +83,6 @@ font-weight: 600;
 
 
  
-    z-index: -1;
 }/*Formatando a caixa de texto*/
 .Texto button{
     width: 60%;
@@ -174,18 +148,147 @@ font-weight: 600;
 
 
 @media (max-width: 575.98px) { 
+    .ImgBox{
+        display: none;
+    }
+    .TextBox{
+        text-align: center;
+        font-size: 0.9em;
+    }
+    .TextBox h1{
+        font-size: 1.9em;
+    }
+    
+
+    .BoxProdutos{
+        flex-direction: column;
+        height: 300px;
+    }
+
+
+    .produto{
+        margin: 20px auto;
+        height: 70%;
+    }
+
+
+    .produto img{
+         width: 56%;
+    }
+   
+    img#fr{
+        width: 56%;
+    }
+
+    .Texto{
+        height: 88%;
+        font-size: 0.5em;
+        font-weight: 600;
+        padding: 14px 10px;
+    }
+    .Texto h4{
+        font-weight: 800;
+
+        font-size: 1.1em;
+    }
+
+    div.mb{
+        margin-bottom: 20px;
+    }
+ }
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+    .ImgBox{
+        display: none;
+    }
+    .TextBox{
+        text-align: center;
+    }
+
+    .BoxProdutos{
+        flex-direction: column;
+        height: 300px;
+    }
+
+
+    .produto{
+        margin: 20px auto;
+        height: 70%;
+    }
+
+
+    .produto img{
+         width: 31%;
+    }
+   
+    img#fr{
+        width: 31%;
+    }
+
+    .Texto{
+        font-size: 0.95em;
+    }
+    .Texto h4{
+        font-size: 1.35em;
+    }
 
  }
 
-@media (min-width: 576px) and (max-width: 767.98px) {  }
+@media (min-width: 768px) and (max-width: 991.98px) { 
+  /*  .Texto{
+        font-size: 0.9em;
+        width:50%;
+        height: 100px;
+        border: 1px solid red;
 
-@media (min-width: 768px) and (max-width: 991.98px) {  }
+    }
+    .Texto h4{
+        font-size: 1.3em;
+    }
+
+*/
+    .BoxProdutos{
+        flex-direction: column;
+        height: 300px;
+    }
+
+
+    .produto{
+        margin: 20px auto;
+        height: 70%;
+    }
+
+
+    .produto img{
+         width: 31%;
+    }
+   
+    img#fr{
+        width: 31%;
+    }
+    
+}
+
 
 
 @media (min-width: 992px) and (max-width: 1199.98px) { 
     #Produtos{
         margin-left:14px ;
     }
+    .Texto{
+        font-size: 0.9em;
+    }
+    .Texto h4{
+        font-size: 1.3em;
+    }
+
+    .Texto{
+        width:50%;
+    }
+
+
+
  }
 
 
